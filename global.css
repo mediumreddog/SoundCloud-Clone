@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  /*background-image: url('images/assault.png');*/
+  background: #151515;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1240px;
+  height: 100%;
+}
+
+.content {
+  margin: 0;
+  height: 100%;
+  padding-top: 50px;
+}

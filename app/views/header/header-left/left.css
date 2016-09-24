@@ -1,0 +1,73 @@
+.logoContainer {
+  background: #0dcc00; /* Old browsers */
+  background: -moz-linear-gradient(top,  #0dcc00 0%, #029e00 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #0dcc00 0%,#029e00 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #0dcc00 0%,#029e00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0dcc00', endColorstr='#029e00',GradientType=0 ); /* IE6-9 */
+
+  width: 6%;
+  height: 45px;
+  float: left;
+}
+
+.logo {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  color: #FFF;
+  font-size: 40px;
+  margin-top: 6px;
+}
+
+/*.search {
+  height: 50px;
+  width: 60%;
+  background: #2b2b2b;
+  float: left;
+  align-items: stretch;
+
+  
+}
+
+.search:hover {
+  background: #333333;
+} */
+
+.searchBox {
+  height: 45px;
+  width: 50%;
+  padding: 0 10px 0 20px;
+  border: 0;
+  background: #2b2b2b;
+  font-size: 35px;
+  color: #FFF;
+}
+
+.searchBox:hover {
+  background: #333333;
+}
+
+.searchBox:focus {
+  color: #FFF;
+  outline: none;
+  background: #333333;
+}
+
+input::-webkit-input-placeholder {
+    color: #484848;
+}
+
+/* Firefox < 19 */
+input:-moz-placeholder {
+    color: #484848;
+}
+
+/* Firefox > 19 */
+input::-moz-placeholder {
+    color: #484848;
+}
+
+/* Internet Explorer 10 */
+input:-ms-input-placeholder {
+    color: #484848;
+}

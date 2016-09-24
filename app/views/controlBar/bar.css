@@ -1,0 +1,41 @@
+.control {
+  background: #252525;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.control:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.controlBar {
+  position: relative;
+}
+
+.seekBar {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #029E00;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  max-width: 100%;
+}
+
+.controlBar:after {
+  margin: 0 auto;
+  content: " ";
+  display: table;
+  height: 0;
+  clear: both;
+
+}
