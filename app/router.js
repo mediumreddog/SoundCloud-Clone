@@ -61,7 +61,7 @@ define([
       console.log('No route:', actions);
     });
 
-    Backbone.history.start({pushState: true, root: "/SoundCloud-Clone"});
+    Backbone.history.start({pushState: true, root: "/SoundCloud-Clone/"});
 
     startLinker();
   };
