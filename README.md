@@ -7,3 +7,6 @@ JavaScript Libraries Used:
 * BackBone
 * jQuery
 * Handlebars
+
+
+This is before I learned about the wonders of React and similar frameworks. I would definitely approach this differently in the future.
